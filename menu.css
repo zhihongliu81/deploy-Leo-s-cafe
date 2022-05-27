@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: bisque;
+}
+.menu-title {
+    font-size: 48px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.menu {
+    display: flex;
+    margin: 0px 200px 100px;
+}
+
+.appetizer, .main-course, .dessert {
+    padding: 0px 100px 0px;
+    border: 2px solid black;
+    background-color: antiquewhite;
+}
+
+.appetizer h1, .main-course h1, .dessert h1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.appetizer-radio, .dessert-radio {
+    display: flex;
+}
+
+.appetizer-option, .dessert-option {
+    padding: 50px 0px 100px;
+}
+
+.main-course-option {
+    padding: 100px 0px 50px;
+}
+
+label {
+    font-size: 30px;
+    font-family:cursive
+}
+
+#appetizerYes, #appetizerNo, #dessertYes, #dessertNo,
+#bread, #rice, #pizza,
+#fishSoup, #vegetableSalad, #friedVegetable, #burger, #taco,
+#iceCream, #popsicle {
+    width: 30px;
+    height: 30px;
+}
